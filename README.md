@@ -1,0 +1,3 @@
+- Limitar upload de arquivos grandes;
+- Limitar upload de determinados tipos de arquivos;
+- Implementar loading
