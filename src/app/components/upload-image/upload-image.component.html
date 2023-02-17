@@ -4,6 +4,7 @@
       <label for="image">Faça o upload da sua imagem:</label>
       <input
         type="file"
+        accept="image/*"
         (change)="onFileChange($event)"
         formControlName="file"
         multiple
@@ -20,5 +21,3 @@
   </div>
   <button type="submit">Enviar</button>
 </form>
-
-<!-- https://netbasal.com/how-to-implement-file-uploading-in-angular-reactive-forms-89a3fffa1a03 -->
